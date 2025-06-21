@@ -1,0 +1,41 @@
+LoopCart: AI-Powered Return Optimization for Sustainable Retail
+A Streamlit web app that classifies retail product returns into Resell, Recycle, or Donate, helping retailers drive sustainability and reduce waste.
+
+Project Overview
+Retailers face major losses and environmental impact due to inefficient return handling. LoopCart uses machine learning to optimize return decisions, enabling a smarter and more sustainable circular economy.
+
+Key Features
+
+ML-based classification of returns
+
+Categories: Resell, Recycle, or Donate
+
+Promotes sustainable return strategies
+
+Random Forest Classifier with over 84% accuracy
+
+Visualizations for condition score, usage, and return trends
+
+Deployed using Streamlit Cloud
+
+How It Works
+
+Input: Synthetic dataset with 500+ return records across categories like Electronics, Clothing, and Groceries
+
+Preprocessing: Label encoding and one-hot encoding
+
+Model: Trained with Random Forest Classifier using scikit-learn
+
+Analysis: Visual insights from data (box plots, heatmaps)
+
+Prediction: User inputs return details to get optimal decision
+
+Tech Stack
+Frontend: Streamlit
+ML & Backend: Python, scikit-learn, pandas, matplotlib, seaborn
+Model: Random Forest
+Deployment: Streamlit Cloud
+
+Try It Live
+Replace this line with your deployed app link
+Example: https://loopcart-vzyto7oym2fteycyvaacfi.streamlit.app/
